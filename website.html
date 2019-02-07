@@ -7,17 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="website.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link rel="icon" href="ScubaIcon.png">
-    <title>FSAC Homepage</title>
+    <title>index</title>
+
+
+    <!-- Wanted to add this \/ just simple but nice additions -->
+    <!-- <link rel="icon" href="ScubaIcon.png"> -->
+    <!-- <title>FSAC Homepage</title> -->
+
 </head>
-<body background="dolphinBackground.png ">
+<body background="/Assets/dolphinBackground.png ">
     <div class="container">
         <div class="navBarContainer">
             <div class="headings">
                 <h1>Flintshire Sub-Aqua Club</h1>
                 <h2>BSAC Branch No.167</h2>
             </div>
-            <img class="logo" src="FSACLogo.png" alt="FSAC Logo">
+            <img class="logo" src="/Assets/FSACLogo.png" alt="FSAC Logo">
             <div>
                 <ul class="navBar">
                     <li><a class="active" href="http://www.flintsac.co.uk/index.htm">Home</a></li>
@@ -32,7 +37,7 @@
         </div>
         <div class="mainVideo">
             <video height="auto" width="95%" controls autoplay>
-                <source src="Learn to Scuba Dive with BSAC.mp4" type="video/mp4">
+                <source src="/Assets/Learn to Scuba Dive with BSAC.mp4" type="video/mp4">
             </video>
         </div>
         <div class="introText">
@@ -53,15 +58,31 @@
                     Golftyn Lane, Connah's Quay, Deeside CH5 4BH.
             </p>
         </div>
-        <div class="moreInfo">
-            <p>If you are interested to learn more about scuba diving
+        <div class="grid-container1">
+            <div class="moreInfo">
+                <p>If you are interested to learn more about scuba diving
                  and experiencing our underwater world, then why not
                   come along to our pool and do a Try Dive session?</p>
-            <a href="http://www.flintsac.co.uk/try%20dive.htm">More Info</a>
+                <a href="http://www.flintsac.co.uk/try%20dive.htm">More Info</a>
+            </div>
+            <div id="slides">
+            <img class="bottom" src="/Assets/MainSlide1.jpg" />
+            <img class="top" src="/Assets/MainSlide2.jpg" />
+            </div>
         </div>
-        <div id="slides">
-            <img class="bottom" src="MainSlide1.jpg" />
-            <img class="top" src="MainSlide2.jpg" />
+        <div class="grid-container2">
+            <div class=bsacLogo>
+                <img src="/Assets/BSACLogo.jpeg" alt="BSAC Logo">
+            </div>
+            <div class="princeDiving">
+                <img src="/Assets/prince.jpg" alt="">
+            </div>
+            <div class="princeQuote">
+                <p id="quote">"With BSAC you can safely enjoy the most thrilling,<br>
+                     challenging and rewarding diving you are ever likely to do."</p>
+                <p id="title">HRH The Duke of Cambridfe, President of BSAC</p>
+            </div>
+
         </div>
       </div>
 
