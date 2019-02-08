@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%);
+}
+
+h1{
+    color:  white;
+    text-shadow: 1px 2px 6px rgba(150, 150, 150, 1);
+    font-family: 'Muli', sans-serif;
+    font-size: 50pt;
+    margin-top: 15%;
+
+}
+
+p{
+    color: white;
+    text-shadow: 0px 2px 6px rgba(150, 150, 150, 1);
+    font-family: 'Muli', sans-serif;
+    font-size: 24pt
+}
+
+#Title{
+    grid-area: header;
+    text-align: center
+}
+
+.key{
+    grid-area: key;
+    text-align: center;
+}
+
+.code{
+    grid-area: code;
+    text-align: center
+}
+
+#codeT{
+}
+
+#code{
+}
+
+.which{
+    grid-area: which;
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+        'header header header'
+        'key code which';
+    grid-template-columns: 33.3vw 33.3vw 33.3vw;
+    grid-template-rows: 50vh 50vh;
+}
